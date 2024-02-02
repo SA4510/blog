@@ -1,0 +1,62 @@
+.register {
+    height: calc(100vh - 50px);
+    align-items: center;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    background-size: cover;
+    background:linear-gradient(
+    rgba(27, 27, 27, 0.5),
+    rgba(23, 23, 23, 0.5)
+    ),
+    url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/4012368/1170/780/m1/fpnw/wm0/01_cover-.jpg?1518724376&s=ce5ed85dc821fe087b2120fb225c8be4")
+    
+
+
+    
+}
+.registerTitle{
+    font-size: 50px;
+    color: rgb(25, 223, 226);
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: ;
+
+}
+.registerForm > label{
+    margin: 10px 0;
+
+}
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:rgb(25, 210, 151) ;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(99, 39, 159);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+

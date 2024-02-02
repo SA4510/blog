@@ -1,0 +1,62 @@
+.login {
+    height: calc(100vh - 50px);
+    align-items: center;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    background-size: cover;
+    background:linear-gradient(
+    rgba(27, 27, 27, 0.5),
+    rgba(23, 23, 23, 0.5)
+    ),
+    url("https://stockindesign.com/wp-content/uploads/edd/2018/08/161_header_new-768x576.jpg")
+    
+
+
+    
+}
+.loginTitle{
+    font-size: 50px;
+    color: rgba(58, 238, 251, 0.806);
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: ;
+
+}
+.loginForm > label{
+    margin: 10px 0;
+
+}
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:rgb(19, 91, 68) ;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(205, 20, 153);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
